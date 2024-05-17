@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 #O matplotlib.pyplot é um modulo da biblioteca do matplolib, que usamos para criação
-# de de graficos e vizualizações de dados. Quando botamos o termo 'as plt' estamos apelidado o matplotlib.pyplot de plt.
+#de de graficos e vizualizações de dados. Quando botamos o termo 'as plt' estamos apelidado o matplotlib.pyplot de plt.
 #O networkx é um biblioteca que usamos para criar, manipular e estudar ad funções de grafos.
 
 G = nx.Graph()
