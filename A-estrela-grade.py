@@ -117,6 +117,7 @@ def algorithm(draw, grid, start, end, heuristic):
     f_score[start] = heuristic(start.get_pos(), end.get_pos())
 
     open_set_hash = {start}
+    spots_testados = 0  # Contador de spots testados
 
     start_time = time.time() # Inicia a contagem do tempo
     while not open_set.empty():
@@ -126,10 +127,12 @@ def algorithm(draw, grid, start, end, heuristic):
 
         atual = open_set.get()[2]
         open_set_hash.remove(atual)
+        spots_testados += 1  # Incrementa o contador
 
         if atual == end:
             end_time = time.time() # Finaliza a contagem do tempo
             print("Tempo necessario:", round(end_time - start_time, 2), "segundos")
+            print("Quantidade de spots testados:", spots_testados)
             caminho_reconstruido(came_from, end, draw)
             end.make_end()
             return True
@@ -152,6 +155,7 @@ def algorithm(draw, grid, start, end, heuristic):
         if atual != start:
             atual.make_closed()
 
+    print("Quantidade de spots testados:", spots_testados)  # Imprime o contador quando não há caminho
     return False
 
 def make_grid(linhas, LARGURA):
