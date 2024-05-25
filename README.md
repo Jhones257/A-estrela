@@ -37,7 +37,6 @@ Suas principais funcionalidades incluem:
   - ✨Criar grades: O usuário pode criar sua própria grade para exemplificar o algoritmo de busca. 
   - ✨Vizualiação gráfica: O algoritmo demonstra todo o processo de expansão dos nós, demonstrando Open Sets, Closed sets e melhor caminho, além de pontos iniciais e finais estabelecidos pelo usuário.
   - ✨Dados da execução: Ao final da execução do algoritmo, ele retorna o total de grafos percorridos e o tempo de execução para encontrar o melhor caminho.
-  - ✨Biblioteca de Jogos: Uma ampla seleção de jogos está disponível na plataforma, permitindo que os usuários explorem e descubram novos jogos para jogar.
 
 # 👾 Contribuição
   Gostou do projeto e encontrou algum bugzinho ou oportunidade de melhoria? Sinta-se livre para enviar sugestões que possam melhorar o código e compartilhar nossos conhecimento 🥰. 
