@@ -69,7 +69,7 @@ Suas principais funcionalidades incluem:
   - Crie um pull Request
   - E prontinho, vou dar uma revisada na sua sugestão e adiciona-la ao projeto 😊
 
-#Referências
+# Referências
  - RUSSEL, Stuart; NORVIG, Peter. Informed (Heuristic) Search Strategies: A* search: Minimizing the total estimated solution cost. In: RUSSEL, Stuart; NORVIG, Peter. Artificial Intelligence A Modern Approach. 3. ed. [S. l.: s. n.], 1995. cap. 3, p. 93-94. Disponível em: www.pearsonhighered.com. Acesso em: 16 maio 2024.
  - FERGUSON, Dave; LIKHACHEV, Maxim; STENTZ, Anthony. A Guide to Heuristic-based Path Planning. Workshop on Planning under Uncertainty for Autonomous Systems, [s. l.], 10 jun. 2005. Disponível em: http://icaps05.icaps-conference.org/. Acesso em: 17 maio 2024.
  - MARTELLI, Alberto. On the Complexity of Admissible Search Algorithms. ARTIFICIAL INTELLIGENCE , [S. l.], p. 1-13, 1 mar. 1976.
