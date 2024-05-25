@@ -25,7 +25,7 @@ Podemos definir sua função de custo como:
 
 # 🖥Implementação do algoritmo A*
 
-Este algoritmo funciona basicamente em 5 etapas:
+Este algoritmo funciona basicamente em 3 etapas:
   - 1 Definição da Estrutura do Grafo: Definimos como nosso grafo será representado, estabelecendo uma lista de vizinhos e custo das arestas que os conectam.
   - 2 Definição da função heurística: esta função estima o custo restante do nó atual até o objetivo. Para este algoritmo utilizamos as duas heurísticas mais comuns(Distância Euclidiana e Manhattan).
   - 3 Implementação da estrutura de dados do A*: Utilizamos os conceitos de "open sets" e "close sets" para definir a função de calculo da função de custo f(n) = g(n) + h(n).
