@@ -1,6 +1,7 @@
 # 🔎Algoritmo de busca A*(A-estrela)
 
 Trabalho desenvolvido para disciplina de Inteligência Artificial
+
 Alunos: [Jhones Soares](https://github.com/Jhones257), [Jorge Castro](https://github.com/guizyyn)
 
 # 👩‍💻Algoritmos de busca em profundidade
